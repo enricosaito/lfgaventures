@@ -1,5 +1,5 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Globe, Layers, Target, Users } from "lucide-react"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Globe, Layers, Target, Users } from "lucide-react";
 
 export function ServicesSection() {
   return (
@@ -23,8 +23,9 @@ export function ServicesSection() {
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground">
-              We've developed proprietary channels and methods to generate high-quality, targeted traffic that converts.
-              Our in-house traffic sources are carefully cultivated to ensure maximum engagement and response rates.
+              We&apos;ve developed proprietary channels and methods to generate high-quality, targeted traffic that
+              converts. Our in-house traffic sources are carefully cultivated to ensure maximum engagement and response
+              rates.
             </p>
           </CardContent>
         </Card>
@@ -78,5 +79,5 @@ export function ServicesSection() {
         </Card>
       </div>
     </section>
-  )
+  );
 }

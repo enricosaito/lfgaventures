@@ -1,13 +1,13 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { BarChart3, LineChart, MessageSquare, Share2, Target, Users } from "lucide-react"
-import { ContactForm } from "@/components/contact-form"
-import { Navbar } from "@/components/navbar"
-import { Footer } from "@/components/footer"
-import { HeroSection } from "@/components/hero-section"
-import { ServicesSection } from "@/components/services-section"
-import { HowItWorksSection } from "@/components/how-it-works-section"
-import { PartnersSection } from "@/components/partners-section"
-import { TestimonialsSection } from "@/components/testimonials-section"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { BarChart3, LineChart, MessageSquare, Share2, Target, Users } from "lucide-react";
+import { ContactForm } from "@/components/contact-form";
+import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
+import { HeroSection } from "@/components/hero-section";
+import { ServicesSection } from "@/components/services-section";
+import { HowItWorksSection } from "@/components/how-it-works-section";
+import { PartnersSection } from "@/components/partners-section";
+import { TestimonialsSection } from "@/components/testimonials-section";
 
 export default function Home() {
   return (
@@ -67,8 +67,8 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Whether you're looking to test a new offer or scale an existing campaign, our traffic solutions can
-                  adapt to your business needs.
+                  Whether you&apos;re looking to test a new offer or scale an existing campaign, our traffic solutions
+                  can adapt to your business needs.
                 </p>
               </CardContent>
             </Card>
@@ -114,5 +114,5 @@ export default function Home() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }

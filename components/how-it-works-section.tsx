@@ -1,4 +1,4 @@
-import { CheckCircle } from "lucide-react"
+import { CheckCircle } from "lucide-react";
 
 export function HowItWorksSection() {
   return (
@@ -21,8 +21,8 @@ export function HowItWorksSection() {
               <div className="relative rounded-lg border bg-card p-6 shadow-sm md:ml-0">
                 <h3 className="text-xl font-bold">1. Partnership Initiation</h3>
                 <p className="mt-2 text-muted-foreground">
-                  We begin by understanding your goals, whether you're an offer owner looking for traffic or a traffic
-                  source seeking monetization opportunities.
+                  We begin by understanding your goals, whether you&apos;re an offer owner looking for traffic or a
+                  traffic source seeking monetization opportunities.
                 </p>
                 <div className="mt-4 flex flex-col gap-2">
                   <div className="flex items-center gap-2">
@@ -127,5 +127,5 @@ export function HowItWorksSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
